@@ -10,6 +10,11 @@ const Container = styled.div`
     right: 50px;
     bottom: 50px;
     border-radius: 50%;
+    
+    &:hover {
+        box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+        cursor: pointer
+    }
 `;
 
 const Arrow = styled.div`

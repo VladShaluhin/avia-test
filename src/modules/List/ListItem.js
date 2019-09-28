@@ -13,6 +13,11 @@ const Container = styled.div`
   box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   margin-bottom: 20px;
+
+  &:hover {
+    box-shadow: 0px 5px 14px rgba(0, 0, 0, 0.1);
+    cursor: pointer
+  }
 `;
 
 const Header = styled.div`

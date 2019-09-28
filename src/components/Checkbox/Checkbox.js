@@ -5,11 +5,13 @@ const Container = styled.div`
   padding: 10px;
   display: flex;
   position: relative;
+  cursor: pointer;
 
   label {
     display: flex;
     align-items: center;
-    width: 100%
+    width: 100%;
+    cursor: pointer
   }
 
   input {
@@ -18,7 +20,6 @@ const Container = styled.div`
 
   &:hover {
     background: #F1FCFF;
-    cursor: pointer
   }
 `;
 
